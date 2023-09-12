@@ -1,0 +1,14 @@
+
+
+require 'test_helper'
+<p style="color: green"><%= notice %></p>
+<h1>Offers</h1>
+<div id="offers">
+ <% @offers.each do |offer| %>
+ <%= render offer %>
+ <p>
+ <%= link_to "Show #{offer.title}", offer %>
+ </p>
+ <% end %>
+</div>
+<%= link_to "New offer", new_offer_path %>

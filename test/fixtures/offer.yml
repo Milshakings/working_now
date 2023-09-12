@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+first_offer:
+ title: The First Offer
+ description: Description for The First Offer
+second_offer:
+ title: The Second Offer
+ description: Description for The Second Offer
+third_offer:
+ title: The Third Offer
+ description: Description for The Third Offer
